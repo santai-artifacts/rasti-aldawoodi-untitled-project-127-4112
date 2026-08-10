@@ -1,11 +1,11 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.27.0",
-    "hono": "^4.6.0"
+    "@anthropic-ai/sdk": "^0.27.0"
   }
 }
